@@ -1,0 +1,45 @@
+to know the git version:
+git --version
+to know the current working directory:
+pwd
+to go to the other folder :
+cd /d
+to create a directory in git repository
+mkdir git demo
+to change the folder into git repository:
+git init
+to create a file 
+use touch or echo 'filename'
+we can enter the matter inside the file using echo
+to know the git status 
+type 
+git status
+to move the files to staging area
+use 
+git add filename
+if we need to move all the files use :
+git add .
+
+if we need to add the file to local are from staging are use this command
+
+git commit -m "commited at 11.37"
+
+-m means add a meesage when commiting
+
+if it shows unown user:
+use this command
+git config --global user.email "mention the email"
+for username:
+git config --global user.name "mention the name"
+
+if you want to know the user and email use this command
+git config --global -l
+
+to connect between you GitHub account and git  use this command
+git remote add orginal https://github.com/vis369/FSD-AIE.git
+
+to push the files into GitHub use:
+git push -orginal master 
+
+orginal is the name that you have gave when connecting to the GitHub
+master is the branch you need to specify that hich branch you are going to pull it
